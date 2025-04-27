@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Aprenda sobre os Objetivos de Desenvolvimento Sustentável (ODS) 11 e 12. Explore quizzes, jogos e materiais educativos.">
+    <meta name="keywords" content="ODS, Sustentabilidade, Educação, Quiz, Jogos">
+    <title>Aprendendo sobre ODS 11 e 12</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #e9f5e9;
+            margin: 0;
+            padding: 20px;
+        }
+        header {
+            background: #4CAF50;
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+        }
+        nav {
+            margin: 20px 0;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #4CAF50;
+            font-size: 1.2em;
+        }
+        section {
+            margin: 20px 0;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 0.9em;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+            margin: 10px 0;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+        }
+        .quiz-container, .result-container {
+            display: none;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 20px;
+            padding: 10px 15px;
+            font-size: 1.2em;
+            margin: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        .video-container {
+            text-align: center;
+            padding: 20px;
+            background-color: #f0f8ff;
+            border-radius: 10px;
+            margin-top: 20px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+        }
+        .video-container a {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .video-container a:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>🌿 Aprendendo sobre ODS 11 e 12 🌍</h1>
+    </header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#quiz">Quiz</a>
+        <a href="#jogos">Jogos</a>
+        <a href="#materiais">Materiais</a>
+    </nav>
+    <main>
+        <section id="home">
+            <h2>O que são ODS? 🌱</h2>
+            <p>Os Objetivos de Desenvolvimento Sustentável (ODS) são um apelo universal para acabar com a pobreza, proteger o planeta e garantir que todas as pessoas desfrutem de paz e prosperidade até 2030.</p>
+            <img src="https://img.freepik.com/fotos-gratis/tela-digital-com-ambiente-dia_23-2148884835.jpg" alt="Imagem representativa dos ODS">
+        </section>
+        <section id="quiz">
+            <h2>Quiz ODS - Vamos Brincar! 🎉</h2>
+            <button onclick="startQuiz()">Começar o Quiz!</button>
+            <div id="quizContainer" class="quiz-container"></div>
+            <div id="resultContainer" class="result-container"></div>
+        </section>
+        <section id="jogos">
+            <h2>Jogo Olhar Cidadão 🎮</h2>
+            <p>Aprenda sobre cidadania e sustentabilidade jogando!</p>
+            <img src="https://inpevcampolimpo.org.br/wp-content/uploads/2016/02/image_gameODS-300x169.png" alt="Jogo Olhar Cidadão" style="border: 2px solid #4CAF50; padding: 5px;">
+            <a href="https://jogo.1.inpevcampolimpo.org.br/game/board" target="_blank">Acesse o Jogo Olhar Cidadão aqui!</a>
+        </section>
+        <section id="materiais">
+            <h2>Materiais Explicativos 📚</h2>
+            <p>Aprenda mais sobre os ODS 11 e 12 através de nossos materiais!</p>
+            <p>O ODS 11 visa tornar as cidades e os assentamentos humanos inclusivos, seguros, resilientes e sustentáveis. O ODS 12 promove padrões de consumo e produção sustentáveis.</p>
+            <img src="https://greensaopaulo.com.br/wp-content/uploads/2021/02/sustentabilidae.jpg" alt="Imagem sobre Sustentabilidade">
+            <div class="video-container">
+                <h3>Vídeo Interativo: Aprenda sobre Sustentabilidade e ODS 🎥</h3>
+                <p>Assista ao vídeo interativo sobre sustentabilidade e os ODS 11 e 12!</p>
+                <a href="https://www.youtube.com/watch?v=HCB2Rxxj7zE" target="_blank">Clique aqui para assistir no YouTube</a>
+            </div>
+            <h3>Exemplos Práticos 🌳</h3>
+            <ul>
+                <li>1. Criar uma horta em casa ou na escola.</li>
+                <li>2. Reduzir o uso de plásticos descartáveis.</li>
+                <li>3. Usar transporte público ou bicicleta para ir à escola.</li>
+                <li>4. Participar de mutirões de limpeza em parques.</li>
+                <li>5. Plantar árvores em áreas urbanas.</li>
+                <li>6. Educar amigos e familiares sobre a importância da reciclagem.</li>
+                <li>7. Economizar energia ao desligar aparelhos eletrônicos.</li>
+                <li>8. Fazer compostagem de resíduos orgânicos.</li>
+                <li>9. Usar produtos de limpeza ecológicos.</li>
+                <li>10. Apoiar empresas que adotam práticas sustentáveis.</li>
+                <li>11. Participar de eventos de conscientização ambiental.</li>
+                <li>12. Fazer compras em mercados locais e sustentáveis.</li>
+                <li>13. Incentivar a redução do desperdício de alimentos.</li>
+                <li>14. Promover o uso de materiais recicláveis em projetos escolares.</li>
+                <li>15. Compartilhar conhecimentos sobre sustentabilidade nas redes sociais.</li>
+            </ul>
+            <h3>Eventos Importantes sobre Desenvolvimento Sustentável 📅</h3>
+            <table class="calendar">
+                <tr>
+                    <th>Data</th>
+                    <th>Evento</th>
+                </tr>
+                <tr>
+                    <td>22 de Abril</td>
+                    <td>Dia da Terra</td>
+                </tr>
+                <tr>
+                    <td>5 de Junho</td>
+                    <td>Dia Mundial do Meio Ambiente</td>
+                </tr>
+                <tr>
+                    <td>16 de Setembro</td>
+                    <td>Dia Internacional para a Preservação da Camada de Ozônio</td>
+                </tr>
+                <tr>
+                    <td>10 de Outubro</td>
+                    <td>Dia Mundial da Saúde Mental</td>
+                </tr>
+                <tr>
+                    <td>20 de Novembro</td>
+                    <td>Dia Universal da Criança</td>
+                </tr>
+            </table>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Aprendendo sobre ODS</p>
+    </footer>
+    <script>
+        const questions = [
+            {
+                question: "Qual é o objetivo do ODS 11?",
+                answers: ["Cidades e Comunidades Sustentáveis 🌆", "Educação de Qualidade 📚", "Saúde e Bem-Estar 🏥"],
+                correct: 0
+            },
+            {
+                question: "O que o ODS 12 promove?",
+                answers: ["Consumo e Produção Sustentáveis ♻️", "Paz e Justiça ⚖️", "Redução da Desigualdade 🌍"],
+                correct: 0
+            },
+            {
+                question: "Qual é uma forma de tornar as cidades mais sustentáveis?",
+                answers: ["Construir mais prédios 🏢", "Criar mais áreas verdes 🌳", "Aumentar o uso de carros 🚗"],
+                correct: 1
+            },
+            {
+                question: "O que é reciclagem?",
+                answers: ["Transformar lixo em novos produtos ♻️", "Jogar tudo no lixo", "Queimar resíduos"],
+                correct: 0
+            },
+            {
+                question: "Como podemos economizar água?",
+                answers: ["Tomar banhos mais curtos 🚿", "Deixar a torneira aberta", "Usar mais água"],
+                correct: 0
+            },
+            {
+                question: "O que significa a palavra 'sustentabilidade'?",
+                answers: ["Usar recursos sem pensar no futuro", "Cuidar do meio ambiente 🌱", "Desperdiçar recursos naturais"],
+                correct: 1
+            },
+            {
+                question: "Qual é uma prática sustentável no dia a dia?",
+                answers: ["Usar sacolas plásticas", "Recusar canudos de plástico 🚫", "Desperdiçar comida"],
+                correct: 1
+            },
+            {
+                question: "O que podemos fazer para reduzir a poluição?",
+                answers: ["Usar transporte público 🚍", "Dirigir mais", "Queimar lixo"],
+                correct: 0
+            },
+            {
+                question: "O que é um alimento orgânico?",
+                answers: ["Alimento sem químicos 🥦", "Alimento enlatado", "Alimento processado"],
+                correct: 0
+            },
+            {
+                question: "Por que é importante preservar a natureza?",
+                answers: ["Para ter um planeta saudável 🌏", "Para destruir habitats", "Para poluir os rios"],
+                correct: 0
+            }
+        ];
+
+        let currentQuestionIndex = 0;
+        let score = 0;
+
+        function startQuiz() {
+            currentQuestionIndex = 0;
+            score = 0;
+            document.getElementById('quizContainer').innerHTML = '';
+            document.getElementById('resultContainer').innerHTML = '';
+            document.getElementById('quizContainer').style.display = 'block';
+            showQuestion();
+        }
+
+        function showQuestion() {
+            if (currentQuestionIndex < questions.length) {
+                const question = questions[currentQuestionIndex];
+                const questionHTML = `<div class="quiz-question">
+                    <h3 class="question-title">${question.question}</h3>
+                    ${question.answers.map((answer, index) => `
+                        <button onclick="selectAnswer(${index})">${answer}</button>
+                    `).join('')}
+                </div>`;
+                document.getElementById('quizContainer').innerHTML += questionHTML;
+            } else {
+                showResult();
+            }
+        }
+
+        function selectAnswer(index) {
+            if (index === questions[currentQuestionIndex].correct) {
+                score++;
+            }
+            currentQuestionIndex++;
+            showQuestion();
+        }
+
+        function showResult() {
+            const resultHTML = `<h3>Você completou o quiz! 🎉</h3>
+                                <p>Sua pontuação: ${score} de ${questions.length}</p>
+                                <button onclick="startQuiz()">Tentar Novamente!</button>`;
+            document.getElementById('resultContainer').innerHTML = resultHTML;
+            document.getElementById('quizContainer').style.display = 'none';
+            document.getElementById('resultContainer').style.display = 'block';
+        }
+    </script>
+</body>
+</html>
